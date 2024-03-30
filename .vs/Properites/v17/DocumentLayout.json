@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Properites\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|c:\\users\\user\\source\\repos\\properites\\properites\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|solutionrelative:properites\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|c:\\users\\user\\source\\repos\\properites\\properites\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|solutionrelative:properites\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|c:\\users\\user\\source\\repos\\properites\\properites\\helpers\\propertysource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|solutionrelative:properites\\helpers\\propertysource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|c:\\users\\user\\source\\repos\\properites\\properites\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|solutionrelative:properites\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|c:\\users\\user\\source\\repos\\properites\\properites\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|solutionrelative:properites\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|c:\\users\\user\\source\\repos\\properites\\properites\\properites.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|solutionrelative:properites\\properites.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|c:\\users\\user\\source\\repos\\properites\\properites\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|solutionrelative:properites\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|c:\\users\\user\\source\\repos\\properites\\properites\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|solutionrelative:properites\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|c:\\users\\user\\source\\repos\\properites\\properites\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF6E11E2-9DF7-4BF2-9AA1-EDA6D80497BA}|Properites\\Properites.csproj|solutionrelative:properites\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Properites\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Properites\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-30T10:29:49.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PropertySource.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Helpers\\PropertySource.cs",
+              "RelativeDocumentMoniker": "Properites\\Helpers\\PropertySource.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Helpers\\PropertySource.cs",
+              "RelativeToolTip": "Properites\\Helpers\\PropertySource.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T10:26:10.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Properites",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Properites.csproj",
+              "RelativeDocumentMoniker": "Properites\\Properites.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Properites.csproj",
+              "RelativeToolTip": "Properites\\Properites.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-30T10:10:37.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Program.cs",
+              "RelativeDocumentMoniker": "Properites\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Program.cs",
+              "RelativeToolTip": "Properites\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T10:00:42.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Property.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Models\\Property.cs",
+              "RelativeDocumentMoniker": "Properites\\Models\\Property.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Models\\Property.cs",
+              "RelativeToolTip": "Properites\\Models\\Property.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T09:47:42.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Properites\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Properites\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T09:25:58.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Properites\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Properites\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T09:25:03.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Properites\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Properites\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T09:24:25.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Properites\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Properites\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T09:24:18.457Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

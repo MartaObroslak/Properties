@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Property>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @foreach(var property in Model)
+    {
+        <div>
+            <img src="@property.Thumbnail"/>
+            <span>@property.Title</span>
+        </div>
+    }
+</div>
