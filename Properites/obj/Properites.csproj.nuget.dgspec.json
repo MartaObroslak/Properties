@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Properites.csproj": {}
+    "C:\\Users\\user\\source\\repos\\Properties\\Properites\\Properites.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Properites.csproj": {
+    "C:\\Users\\user\\source\\repos\\Properties\\Properites\\Properites.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Properites.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\Properties\\Properites\\Properites.csproj",
         "projectName": "Properites",
-        "projectPath": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\Properites.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\Properties\\Properites\\Properites.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\Properites\\Properites\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\Properties\\Properites\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

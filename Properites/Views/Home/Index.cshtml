@@ -1,14 +1,37 @@
-﻿@model IEnumerable<Property>
+﻿@model List<Properites.Models.Property> // Zmieniając na prawidłową ścieżkę do twojej klasy modelu
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Lista Nieruchomości";
 }
 
-<div class="text-center">
-    @foreach(var property in Model)
-    {
-        <div>
-            <img src="@property.Thumbnail"/>
-            <span>@property.Title</span>
+<div class="container mt-3">
+    <div class="row mb-3">
+        <div class="col">
+            <a href="@Url.Action("Add", "Home")" class="btn btn-success">Add Property</a>
         </div>
-    }
+    </div>
+    <div class="row">
+        @foreach (var property in Model)
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <img src="@property.Thumbnail" class="card-img-top" alt="@property.Title" style="height:200px; object-fit:cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">@property.Title</h5>
+                        <p class="card-text">@property.Description</p>
+                        <div class="badge bg-secondary">@property.Location</div>
+                        <div class="badge bg-info">@property.SquareMeters m²</div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="@Url.Action("Details", "Home", new { id = property.ID })" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
 </div>
+
+<style>
+    .card-img-top {
+        height: 200px; 
+        object-fit: cover; 
+</style>

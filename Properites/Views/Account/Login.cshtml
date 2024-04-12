@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<style>
+    .login-button {
+        margin-top: 0.5rem; 
+</style>
+
+<div class="container">
+    <h2>Login</h2>
+    <form asp-action="Login">
+        <div class="form-group row">
+            <label for="Email" class="col-12 text-left">Email</label>
+            <div class="col-12 col-md-4">
+                <input type="email" class="form-control" id="Email" name="Email" required>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="Password" class="col-12 text-left">Password</label>
+            <div class="col-12 col-md-4">
+                <input type="password" class="form-control" id="Password" name="Password" required>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-12 col-md-4">
+                <button type="submit" class="btn btn-primary login-button">Log in</button>
+            </div>
+        </div>
+    </form>
+    <p>
+        Don't have account yet? <a asp-action="Register">Register</a>
+    </p>
+</div>

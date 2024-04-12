@@ -1,0 +1,76 @@
+﻿@model Properites.Models.Property
+
+@{
+    ViewData["Title"] = "Szczegóły nieruchomości";
+}
+
+<style>
+    .property-image {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+        .gallery a {
+            width: calc(50% - 5px);
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+</style>
+
+<div class="container">
+    <h1>@Model.Title</h1>
+    <img src="@Model.Thumbnail" alt="Miniaturka nieruchomości" class="property-image" />
+    <p>@Model.Description</p>
+    <p>Location: @Model.Location</p>
+    <p>Area: @Model.SquareMeters m²</p>
+
+    <div class="gallery">
+        @foreach (var photo in Model.Photos)
+        {
+            <a href="@photo" data-lightbox="property-gallery" data-title="@Model.Title">
+                <img src="@photo" alt="Zdjęcie nieruchomości" />
+            </a>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script>
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true
+        })
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=TWOJKLUCZAPI&callback=initMap"></script>
+    <script>
+        function initMap() {
+            var location = { lat: @Model.Latitude, lng: @Model.Longitude };
+            var map = new google.maps.Map(document.getElementById('propertyMap'), {
+                zoom: 15,
+                center: location
+            });
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+    </script>
+}
