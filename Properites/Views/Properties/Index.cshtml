@@ -1,4 +1,5 @@
-﻿@model List<Properites.Models.Property> // Zmieniając na prawidłową ścieżkę do twojej klasy modelu
+﻿@* Usuń @model List<Properites.Models.Property> z powodu braku wykorzystania modelu w akcji HomeController.Index() *@
+
 @{
     ViewData["Title"] = "Lista Nieruchomości";
 }
@@ -6,7 +7,7 @@
 <div class="container mt-3">
     <div class="row mb-3">
         <div class="col">
-            <a href="@Url.Action("Add", "Home")" class="btn btn-success">Add Property</a>
+            <a href="@Url.Action("Add", "Properties")" class="btn btn-success">Add Property</a>
         </div>
     </div>
     <div class="row">
@@ -22,7 +23,7 @@
                         <div class="badge bg-info">@property.SquareMeters m²</div>
                     </div>
                     <div class="card-footer">
-                        <a href="@Url.Action("Details", "Home", new { id = property.ID })" class="btn btn-primary">Details</a>
+                        <a href="@Url.Action("Details", "Properties", new { id = property.ID })" class="btn btn-primary">Details</a>
                     </div>
                 </div>
             </div>
@@ -32,6 +33,7 @@
 
 <style>
     .card-img-top {
-        height: 200px; 
-        object-fit: cover; 
+        height: 200px;
+        object-fit: cover;
+    }
 </style>
